@@ -261,13 +261,14 @@ For small projects like this,the easiest way to add CSS to your HTML file is by 
 	
 Write this in your `<style>` tag
 
-`
-<style>
-	h1{
+
+
+    <style>
+	  h1{
 		text-align: center;
-	}
-</style>
-`
+	  }
+    </style>
+
 
 QUICK TIP:
 
@@ -343,10 +344,12 @@ You can have multiple styles in the same ``<style>`` tag.
 	請參考下方範例。
 
 
-``h1{
+``
+h1{
 	text-align: center;
 }
 ``
+
 
 ``p{
 	text-align: center;
@@ -415,7 +418,6 @@ Sometimes this is called "boilerplate"
 
 	HTML的基本架構包含head,body如下：
 	
-	```
 	
 	<!DOCTYPE html>
 	  <head>
@@ -424,8 +426,7 @@ Sometimes this is called "boilerplate"
 	  <body>
 	    <!-- Content goes here -->
 	  </body>  
-	  	
-	```
+	
 	
 3. Common Styles
 
@@ -493,7 +494,7 @@ LET'S GET STARTED
 Adding an image is easy! Just use the <img> tag
 
 	只要使用<img>這個標籤，就可以在你的網頁中加上圖片。
-	``<img src="/assets/anna.png">``
+	<img src="/assets/anna.png">
 	
 The<img> tag uses the image located at the URL in the src attribute.
 
@@ -546,9 +547,9 @@ URL should be set to an actual path to an image file.
 
 	記得在前面的課程裡有介紹background這個屬性，是用來設定背景圖片的顏色。然而，background這個屬性也可以用來設定背景圖片。用法如下，url屬性用來指定圖片路徑。
 	
-	``body {
+	body {
       background: url("http://dash.ga.co/assets/anna-bg.png");
-    }``
+    }
     
 This is how you prevent the background from appearing "tiled".    
 
@@ -591,15 +592,12 @@ Almost done! Let's make the call-to-action button nice and bright red,then we'll
 
 You can select an element by one of its attributes using square brackets,like this:
 
-	`
-	
+
 	input[type="submit"]{
       background: red;
       color: white;
     }
-    
-    
-    `
+
     
 For example,you could select the email input using either input[type="email"] or input[placeholder="Your email"]
 Both would work.
@@ -1019,3 +1017,9 @@ LET'S GET STARTED
 
 因為0就是0，不需要特別指定單位。
 0 in= 0 cm = 0ft
+
+
+
+	
+
+
