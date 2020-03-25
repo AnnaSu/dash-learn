@@ -19,9 +19,9 @@ dash是一個html+css+js 之好玩又好有趣的學習網站。
 記得註明原出處就好。
 
 
-###PROJECT 1: 
+### PROJECT 1: 
 
-####BUILD A PERSONAL WEBSITE
+#### BUILD A PERSONAL WEBSITE
 
 
 	建立個人網站
